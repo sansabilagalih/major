@@ -173,7 +173,7 @@ class Major:
             return None
 
     async def join_squad(self, token: str):
-        url = f'https://major.bot/api/squads/1904705154/join/'
+        url = f'https://major.bot/api/squads/1006503122/join/'
         headers = {
             **self.headers,
             'Authorization': f"Bearer {token}",
